@@ -1,8 +1,6 @@
-import java.util.Objects;
-
 public interface IAcciones {
-    void agregar(Objects obj) throws Exceptions;
-    Objects buscar(Objects obj);
+    void agregar(Object obj) throws Exceptions;
+    Object buscar(Object obj);
     void quitar (Object obj) throws Exceptions;
 
 }
