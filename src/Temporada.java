@@ -63,11 +63,17 @@ public class Temporada {
     }
 
     public void agregarCapitulo(Capitulo capitulo){
+//
+//        if (capitulos.contains(capitulo)){
+//            throw new Exceptions("Capitulo repetido");
+//        }
+//        capitulos.add((Capitulo) capitulo);
 
     }
 
     public int capitulosVistos(){
-        return 1;
+//        return capitulos.forEach((capitulo -> (capitulo.toString())));
+return 1;
     }
 
     @Override

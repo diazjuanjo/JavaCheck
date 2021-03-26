@@ -116,16 +116,50 @@ public class Serie implements  IAcciones{
 
     @Override
     public void agregar(Objects obj) throws Exceptions {
-
+//        if (obj instanceof Personaje){
+//            if (personajes.contains(obj)){
+//                throw new Exceptions("Personaje repetido");
+//            }
+//            personajes.add((Personaje) obj);
+//        }
+//        if (obj instanceof Temporada){
+//            if (temporadas.contains(obj)){
+//                throw new Exceptions("Temporada repetida");
+//            }
+//            temporadas.add((Temporada) obj);
+//        }
     }
 
     @Override
-    public void buscar(Objects obj) {
-
+    public Objects buscar(Objects obj) {
+//        Object objReturn = null;
+//        if (obj instanceof Personaje) {
+//            if (personajes.contains(obj)) {
+//                return obj;
+//            }
+//        }
+//        if (obj instanceof Temporada){
+//            if (temporadas.contains(obj)){
+//                return obj;
+//            }
+//        }
+//        return objReturn;
+        return null;
     }
 
     @Override
     public void quitar(Object obj) throws Exceptions {
-
+//        if (obj instanceof Personaje){
+//            if (!personajes.contains(obj)){
+//                throw new Exceptions("Personaje inexistente");
+//            }
+//            personajes.remove((Personaje) obj);
+//        }
+//        if (obj instanceof Temporada){
+//            if (temporadas.contains(obj)){
+//                throw new Exceptions("Temporada inexistente");
+//            }
+//            temporadas.remove((Temporada) obj);
+//        }
     }
 }
